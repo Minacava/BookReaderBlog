@@ -1,4 +1,4 @@
-baseurl         = "/"
+baseurl         = ""
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
@@ -10,22 +10,22 @@ paginate        = 6
   subtitle    = "Playing with Lines"
 
   cover       = "img/blog-cover.jpg"
-  description = "First Hugo interaction"
+  description = "Anna's personal Blog"
   metaDescription = ""
   googleAnalytics = ""
-  customCSS = []
+  customCSS = ["built/site.css"]
   RSSLink = ""
 
   twitterName = "MinaCamachov"
   githubName = "Minacava"
 
-  logo = ""
-  orgName = "EM"
+  logo = "cover-img/ANNA.png"
+  orgName = "AC"
   orgWebsite = ""
   orgDescription = ""
 
   author = "Anna Camacho"
-  authorAvatar = "anna.jpg"
+  authorAvatar = "cover-img/anna.jpg"
   authorLocation = "Barcelona, Spain"
   authorWebsite = "www.bouncingshield.com"
   authorDescription = "Reader and Writer"
@@ -39,7 +39,7 @@ paginate        = 6
   post = "/:slug/"
 
 [[menu.main]]
-  name = "Main"
+  name = "Home"
   url = "/"
   weight = 200
 
