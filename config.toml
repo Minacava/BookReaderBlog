@@ -1,0 +1,59 @@
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "ANNA CAMACHO"
+  subtitle    = "Playing with Lines"
+
+  cover       = "img/blog-cover.jpg"
+  description = "First Hugo interaction"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "MinaCamachov"
+  githubName = "Minacava"
+
+  logo = ""
+  orgName = "EM"
+  orgWebsite = ""
+  orgDescription = ""
+
+  author = "Anna Camacho"
+  authorAvatar = "anna.jpg"
+  authorLocation = "Barcelona, Spain"
+  authorWebsite = "www.bouncingshield.com"
+  authorDescription = "Reader and Writer"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Main"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "New Posts"
+  url = "/tags/NewPosts/"
+  weight = 100
+
+[[menu.main]]
+  name = "Books"
+  url = "/categories/Books/"
+  weight = 99
+
+[[menu.main]]
+  name = "Created with Love By #MinaCamachov"
+  url = "https://bouncingshield.com/"
+  weight = 95
